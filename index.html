@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <h2>Dev Detective</h2>
+                <button mode-button>
+                    <p>Dark</p>
+                    <i class="fa-regular fa-moon"></i>
+                </button>
+            </div>
+            <form class="form-container" data-searchForm>
+                <input id="searchBar" placeholder="Search for dev..." data-searchInput>
+                <button class="btn" id="searchBtn">
+                    <img width="25px" src="search.png" alt="">
+                </button>
+            </form>
+            <p class="notFound">username not found</p>
+            <div class="data-container" dataContainer>
+                <div class="Content">
+                    <img src="" alt="" width="170px" height="150px" devImage>
+                    <div devData> 
+                        <div devHeading>
+                            <h2 class='name'></h2>
+                            <p join></p>
+                        </div>
+                        <a class="icon" href="" username></a>
+                        <p devDescription></p>
+                        <div devStats>
+                            <div class="stats">
+                                <h3>Repos</p>
+                                <h1 repoCount></h1>
+                            </div>
+                            <div class="stats">
+                                <h3>Followers</p>
+                          <div class=""></div>      <h1 followerCount></h1>
+                            </div>
+                            <div class="stats">
+                                <h3>Following</p>
+                                <h1 followingCount></h1>
+                            </div>
+                        </div>
+                        <div devLinksContainer>
+                            <div devLinks>
+                                <a  href="" class="iconBefore" id="locationLink"><i class="fa-solid fa-location-dot"></i> <span id="location"> Not Available</span></a>
+                                <a href="" class="iconBefore" id="blogLink"><i class="fa-solid fa-link"></i><span id="blog"> Not Available</span></a>   
+                            </div>
+                            
+                            <div devLinks>
+                                <a href="" class="iconBefore" id="twitterLink"><i class="fa-brands fa-square-x-twitter"></i> <span id="twitter"> Not Available</span></a>
+                                <a href="" class="iconBefore" id="orgLink"><i class="fa-solid fa-building"></i> <span id="org"> Not Available</span></a>
+                            </div> 
+                        </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+</body>
+</html>
